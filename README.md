@@ -1,6 +1,8 @@
 <h1 align="center">Laravel Html Detector</h1>
 <p>The package is to help to check html tag closure. If there are any tags unclosed, it will throw a alert.</p>
 
+![截图](https://github.com/zhouzishu/laravel-html-detector/blob/master/show.png)
+
 ## Installing
 
 ```shell
