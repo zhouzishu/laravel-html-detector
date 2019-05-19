@@ -1,0 +1,17 @@
+{
+    "name": "zhouzishu/laravel-html-detector",
+    "description": "Laravel html tag closure detector.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhouzishu",
+            "email": "2693558149@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zhouzishu\\LaravelHtmlDetector\\": "src"
+        }
+    }
+}
