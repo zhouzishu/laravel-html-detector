@@ -19,7 +19,7 @@ class DetectorMiddleware
         if ($response->getStatusCode() !== 200) {
             return $response;
         }
-        
+
         $html = $response->getContent();
         $this->detector->setHtml($html);
 
