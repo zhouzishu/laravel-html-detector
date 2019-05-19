@@ -16,8 +16,11 @@ class DetectorMiddleware
     public function handle($request, Closure $next)
     {
         $response = $next($request);
+        if ($response->getStatusCode() !== 200) {
+            return $response;
+        }
+        
         $html = $response->getContent();
-
         $this->detector->setHtml($html);
 
         if (! $this->detector->check()) {
