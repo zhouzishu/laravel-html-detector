@@ -20,7 +20,7 @@ class DetectorMiddleware
 
         $this->detector->setHtml($html);
 
-        if (!$this->detector->check()) {
+        if (! $this->detector->check()) {
             $response->setContent($this->outputAlert($html));
         }
 

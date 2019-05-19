@@ -45,7 +45,7 @@ class Detector
         $opentags = array_reverse($opentags);
 
         // self closing tags
-        $sc = array('br', 'input', 'img', 'hr', 'meta', 'link');
+        $sc = ['br', 'input', 'img', 'hr', 'meta', 'link'];
         // ,'frame','iframe','param','area','base','basefont','col'
         // should not skip tags that can have content inside!
 
